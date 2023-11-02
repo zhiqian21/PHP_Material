@@ -14,4 +14,10 @@
 
     echo "My name is $name !";
 
+    $x = "num";
+    $$x = "num2";
+    echo $x . "<br>";
+    echo $$x . "<br>";
+    echo "the total of $num" . $$x;
+
 ?>
