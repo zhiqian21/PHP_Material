@@ -12,6 +12,7 @@
 
 <?php
 #take the value from form submission
+
 $num = $_POST["num"];
 
 switch($num){
